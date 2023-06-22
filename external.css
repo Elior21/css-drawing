@@ -1,0 +1,56 @@
+body{
+    background-color: red;
+}
+
+body{
+    display: flex;
+    
+}
+ 
+
+#centerbox{
+    z-index: 1;
+    position: relative;
+    width: 700px;
+    height: 350px;
+    background: greenyellow;
+    left: 150px;
+    top: 300px;
+    border-radius: 49px;
+}
+
+#circle1{ position: relative;
+    z-index: 2;
+    background-color: black;
+top: 300px;
+width: 150;
+height: 140;
+border-radius: 50px;
+
+}
+
+#circle2{position: relative;
+    z-index: 3;
+    background-color: darkgrey;
+    top: 305px;
+    right: 145px;
+    height: 130px;
+    width: 140px;
+
+    border-radius: 50px;
+
+}
+
+#button1{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    right: 790px;
+    top: 270px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
+
+
